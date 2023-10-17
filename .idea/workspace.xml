@@ -4,7 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8b980dee-872f-4899-b0be-b18a7328ab3b" name="Changes" comment="Add in pom.xml junit" />
+    <list default="true" id="8b980dee-872f-4899-b0be-b18a7328ab3b" name="Changes" comment="Add in pom.xml junit">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/ait/homework35/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/ait/homework35/BookManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/ait/homework35/Contact.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/ait/homework35/Phonebook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/ait/homework36/Superhero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/ait/homework36/SuperheroManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/de/ait/homework34/StringProcessorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/de/ait/homework36/SuperheroManagerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/de/ait/homework34/StringProcessor.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +27,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -30,26 +44,111 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "last_opened_file_path": "/Users/maximkoshakov/Repositoriy/homeworks/src/main/java/de/ait/homework35",
     "onboarding.tips.debug.path": "/Users/maximkoshakov/Repositoriy/homeworks/src/main/java/de/ait/Main.java"
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="de.ait.Main" />
-      <module name="homeworks" />
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/de/ait/homework35" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="de.ait.homework36" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.SuperheroManagerTest.getSuperheroFail">
+    <configuration name="SuperheroManagerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaLessonAIT" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="de.ait.*" />
+          <option name="PATTERN" value="de.ait.homework36.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="de.ait.homework36" />
+      <option name="MAIN_CLASS_NAME" value="de.ait.homework36.SuperheroManagerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SuperheroManagerTest.addSuperheroWrongPower" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaLessonAIT" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="de.ait.homework36.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="de.ait.homework36" />
+      <option name="MAIN_CLASS_NAME" value="de.ait.homework36.SuperheroManagerTest" />
+      <option name="METHOD_NAME" value="addSuperheroWrongPower" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SuperheroManagerTest.getSuperhero" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaLessonAIT" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="de.ait.homework36.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="de.ait.homework36" />
+      <option name="MAIN_CLASS_NAME" value="de.ait.homework36.SuperheroManagerTest" />
+      <option name="METHOD_NAME" value="getSuperhero" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SuperheroManagerTest.getSuperheroFail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaLessonAIT" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="de.ait.homework36.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="de.ait.homework36" />
+      <option name="MAIN_CLASS_NAME" value="de.ait.homework36.SuperheroManagerTest" />
+      <option name="METHOD_NAME" value="getSuperheroFail" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SuperheroManagerTest.testUpdateSuperheroSuccess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaLessonAIT" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="de.ait.homework36.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="de.ait.homework36" />
+      <option name="MAIN_CLASS_NAME" value="de.ait.homework36.SuperheroManagerTest" />
+      <option name="METHOD_NAME" value="testUpdateSuperheroSuccess" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.SuperheroManagerTest.getSuperheroFail" />
+        <item itemvalue="JUnit.SuperheroManagerTest.testUpdateSuperheroSuccess" />
+        <item itemvalue="JUnit.SuperheroManagerTest.addSuperheroWrongPower" />
+        <item itemvalue="JUnit.SuperheroManagerTest.getSuperhero" />
+        <item itemvalue="JUnit.SuperheroManagerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -86,12 +185,28 @@
       <option name="project" value="LOCAL" />
       <updated>1696755152292</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Add in pom.xml junit">
+      <option name="closed" value="true" />
+      <created>1696755480069</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1696755480069</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="34: Project was created, add pom.xml and Class for test" />
     <MESSAGE value="Add in pom.xml junit" />
     <option name="LAST_COMMIT_MESSAGE" value="Add in pom.xml junit" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/homeworks$SuperheroManagerTest.ic" NAME="SuperheroManagerTest Coverage Results" MODIFIED="1697564096686" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>de.ait.homework36.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/homeworks$SuperheroManagerTest_testAddSuperheroDublicate.ic" NAME="SuperheroManagerTest.testAddSuperheroDublicate Coverage Results" MODIFIED="1697480308656" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>de.ait.homework36.*</FILTER>
+    </SUITE>
   </component>
 </project>
