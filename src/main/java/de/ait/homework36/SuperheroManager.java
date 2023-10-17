@@ -7,7 +7,7 @@ public class SuperheroManager {
 
     private List<Superhero> superheroes = new ArrayList<>();
 
-    void addSuperhero(Superhero superhero) {
+    public void addSuperhero(Superhero superhero) {
         if (!checkSuperhero(superhero.getName()) && checkPower(superhero)) {
             superheroes.add(superhero);
         } else {
@@ -15,7 +15,7 @@ public class SuperheroManager {
         }
     }
 
-    void removeSuperhero(String name) {
+    public void removeSuperhero(String name) {
         if (checkSuperhero(name)) {
             for (Superhero superhero : superheroes) {
                 if (superhero.getName().equals(name)) {
@@ -30,7 +30,7 @@ public class SuperheroManager {
     }
 
     Superhero getSuperhero(String name) {
-        return  searchSuperhero(name);
+        return searchSuperhero(name);
     }
 
 
@@ -38,10 +38,10 @@ public class SuperheroManager {
         return superheroes;
     }
 
-    public boolean updateSuperhero(String name, Superhero newSuperhero){
+    public boolean updateSuperhero(String name, Superhero newSuperhero) {
         Superhero superhero = searchSuperhero(name);
 
-        if (superhero !=null){
+        if (superhero != null) {
             superhero.setName(newSuperhero.getName());
             superhero.setAge(newSuperhero.getAge());
             superhero.setPower(newSuperhero.getPower());
@@ -63,12 +63,12 @@ public class SuperheroManager {
         if (superhero.getPower() >= 1 && superhero.getPower() <= 10) {
             return true;
         }
-        return false;
+        else return false;
     }
 
-    private Superhero searchSuperhero(String nama) {
+    private Superhero searchSuperhero(String name) {
         for (Superhero superhero : superheroes) {
-            if (superhero.getName().equals(superhero.getName())) {
+            if (superhero.getName().equals(name)) {
                 return superhero;
             }
         }

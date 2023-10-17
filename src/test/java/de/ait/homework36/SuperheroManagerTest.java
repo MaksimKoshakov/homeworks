@@ -94,9 +94,9 @@ class SuperheroManagerTest {
 
     @Test
     void getSuperheroFail() {
-        Superhero superhero = new Superhero("Iron Man", 10, 40);
+        Superhero superhero = new Superhero("Spider-Man", 9, 30);
         superheroManager.addSuperhero(superhero);
-        Assertions.assertNull(superheroManager.getSuperhero("IronNan"));
+        Assertions.assertNull(superheroManager.getSuperhero("SpiderMan"));
     }
 
 
