@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8b980dee-872f-4899-b0be-b18a7328ab3b" name="Changes" comment="Add in pom.xml junit">
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/ait/homework37/InventoryManagement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/ait/homework37/MobilePhone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/de/ait/homework37/InventoryManagementTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/de/ait/homework36/SuperheroManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/ait/homework36/SuperheroManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/de/ait/homework36/SuperheroManagerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/de/ait/homework36/SuperheroManagerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,84 +51,85 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="de.ait.homework37" />
       <recent name="de.ait.homework36" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SuperheroManagerTest.getSuperheroFail">
-    <configuration name="SuperheroManagerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.InventoryManagementTest">
+    <configuration name="InventoryManagementTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaLessonAIT" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="de.ait.homework36.*" />
+          <option name="PATTERN" value="de.ait.homework37.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="de.ait.homework36" />
-      <option name="MAIN_CLASS_NAME" value="de.ait.homework36.SuperheroManagerTest" />
+      <option name="PACKAGE_NAME" value="de.ait.homework37" />
+      <option name="MAIN_CLASS_NAME" value="de.ait.homework37.InventoryManagementTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SuperheroManagerTest.addSuperheroWrongPower" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="InventoryManagementTest.getMobilePhoneFail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaLessonAIT" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="de.ait.homework36.*" />
+          <option name="PATTERN" value="de.ait.homework37.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="de.ait.homework36" />
-      <option name="MAIN_CLASS_NAME" value="de.ait.homework36.SuperheroManagerTest" />
-      <option name="METHOD_NAME" value="addSuperheroWrongPower" />
+      <option name="PACKAGE_NAME" value="de.ait.homework37" />
+      <option name="MAIN_CLASS_NAME" value="de.ait.homework37.InventoryManagementTest" />
+      <option name="METHOD_NAME" value="getMobilePhoneFail" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SuperheroManagerTest.getSuperhero" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="InventoryManagementTest.getMobilePhoneSuccess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaLessonAIT" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="de.ait.homework36.*" />
+          <option name="PATTERN" value="de.ait.homework37.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="de.ait.homework36" />
-      <option name="MAIN_CLASS_NAME" value="de.ait.homework36.SuperheroManagerTest" />
-      <option name="METHOD_NAME" value="getSuperhero" />
+      <option name="PACKAGE_NAME" value="de.ait.homework37" />
+      <option name="MAIN_CLASS_NAME" value="de.ait.homework37.InventoryManagementTest" />
+      <option name="METHOD_NAME" value="getMobilePhoneSuccess" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SuperheroManagerTest.getSuperheroFail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="InventoryManagementTest.listMobilePhones" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaLessonAIT" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="de.ait.homework36.*" />
+          <option name="PATTERN" value="de.ait.homework37.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="de.ait.homework36" />
-      <option name="MAIN_CLASS_NAME" value="de.ait.homework36.SuperheroManagerTest" />
-      <option name="METHOD_NAME" value="getSuperheroFail" />
+      <option name="PACKAGE_NAME" value="de.ait.homework37" />
+      <option name="MAIN_CLASS_NAME" value="de.ait.homework37.InventoryManagementTest" />
+      <option name="METHOD_NAME" value="listMobilePhones" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SuperheroManagerTest.testUpdateSuperheroSuccess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="InventoryManagementTest.updateMobilePhoneSuccess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaLessonAIT" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="de.ait.homework36.*" />
+          <option name="PATTERN" value="de.ait.homework37.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="de.ait.homework36" />
-      <option name="MAIN_CLASS_NAME" value="de.ait.homework36.SuperheroManagerTest" />
-      <option name="METHOD_NAME" value="testUpdateSuperheroSuccess" />
+      <option name="PACKAGE_NAME" value="de.ait.homework37" />
+      <option name="MAIN_CLASS_NAME" value="de.ait.homework37.InventoryManagementTest" />
+      <option name="METHOD_NAME" value="updateMobilePhoneSuccess" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -135,11 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SuperheroManagerTest.getSuperheroFail" />
-        <item itemvalue="JUnit.SuperheroManagerTest.testUpdateSuperheroSuccess" />
-        <item itemvalue="JUnit.SuperheroManagerTest.addSuperheroWrongPower" />
-        <item itemvalue="JUnit.SuperheroManagerTest.getSuperhero" />
-        <item itemvalue="JUnit.SuperheroManagerTest" />
+        <item itemvalue="JUnit.InventoryManagementTest" />
+        <item itemvalue="JUnit.InventoryManagementTest.updateMobilePhoneSuccess" />
+        <item itemvalue="JUnit.InventoryManagementTest.listMobilePhones" />
+        <item itemvalue="JUnit.InventoryManagementTest.getMobilePhoneFail" />
+        <item itemvalue="JUnit.InventoryManagementTest.getMobilePhoneSuccess" />
       </list>
     </recent_temporary>
   </component>
@@ -192,7 +194,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697568358644</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Add in pom.xml junit">
+      <option name="closed" value="true" />
+      <created>1697571547436</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1697571547436</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -200,12 +210,25 @@
     <MESSAGE value="Add in pom.xml junit" />
     <option name="LAST_COMMIT_MESSAGE" value="Add in pom.xml junit" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.util.ConcurrentModificationException" package="java.util" />
+          <option name="timeStamp" value="24" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/homeworks$SuperheroManagerTest.ic" NAME="SuperheroManagerTest Coverage Results" MODIFIED="1697564096686" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>de.ait.homework36.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/homeworks$SuperheroManagerTest_testAddSuperheroDublicate.ic" NAME="SuperheroManagerTest.testAddSuperheroDublicate Coverage Results" MODIFIED="1697480308656" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>de.ait.homework36.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/homeworks$InventoryManagementTest.ic" NAME="InventoryManagementTest Coverage Results" MODIFIED="1697662647217" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>de.ait.homework37.*</FILTER>
     </SUITE>
   </component>
 </project>
