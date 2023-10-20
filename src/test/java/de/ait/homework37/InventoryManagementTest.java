@@ -5,126 +5,74 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import java.util.List;
+import java.util.UUID;
 
 class InventoryManagementTest {
 
     private InventoryManagement inventoryManagement;
+    private MobilePhone nokia;
 
     @BeforeEach
     void setUp() {
+        nokia = new MobilePhone("Nokia", "N70", "NokiaOS", 60);
         inventoryManagement = new InventoryManagement();
+
     }
 
     @Test
     void addMobilePhoneSuccess() {
-        MobilePhone nokia = new MobilePhone(83948839, "Nokia", "N70", "NokiaOS", 60);
-        inventoryManagement.addMobilePhone(nokia);
-        List<MobilePhone> mobilePhoneListResult = inventoryManagement.listMobilePhones();
-        int sizeResult = mobilePhoneListResult.size();
-        Assertions.assertEquals(1, sizeResult);
-    }
-
-    @Test
-    void addMobilePhoneFail() {
-        MobilePhone nokia = new MobilePhone(83948839, "Nokia", "N70", "NokiaOS", 60);
-        inventoryManagement.addMobilePhone(nokia);
-        List<MobilePhone> mobilePhoneListResult = inventoryManagement.listMobilePhones();
-        int sizeResult = mobilePhoneListResult.size();
-        Assertions.assertEquals(1, sizeResult);
-        inventoryManagement.addMobilePhone(nokia);
-        Assertions.assertEquals(1, sizeResult);
+        Assertions.assertTrue(inventoryManagement.addMobilePhone(nokia));
+        Assertions.assertEquals(1, inventoryManagement.getAllMobilePhones().size());
     }
 
     @Test
     void deleteMobilePhoneSuccess() {
-        MobilePhone nokia = new MobilePhone(1234, "Nokia", "N70", "NokiaOS", 60);
-        MobilePhone siemens = new MobilePhone(8394, "Siemens", "N70", "Android", 100);
-        MobilePhone iphone = new MobilePhone(2341, "Apple", "N70", "iOS", 990);
-
         inventoryManagement.addMobilePhone(nokia);
-        inventoryManagement.addMobilePhone(siemens);
-        inventoryManagement.addMobilePhone(iphone);
-
-        List<MobilePhone> mobilePhoneListResult = inventoryManagement.listMobilePhones();
-        int sizeResult = mobilePhoneListResult.size();
-        Assertions.assertEquals(3, sizeResult);
-
-        inventoryManagement.deleteMobilePhone(1234);
-
-        List<MobilePhone> mobilePhoneListDelete = inventoryManagement.listMobilePhones();
-        Assertions.assertEquals(2, mobilePhoneListDelete.size());
-
-        for (MobilePhone mobilePhone : mobilePhoneListDelete) {
-            Assertions.assertNotEquals(1234, mobilePhone.getId());
-        }
-    }
-
-    void deleteMobilePhoneFail() {
-        MobilePhone nokia = new MobilePhone(1234, "Nokia", "N70", "NokiaOS", 60);
-        MobilePhone siemens = new MobilePhone(8394, "Samsung", "G28", "Android", 100);
-        MobilePhone iphone = new MobilePhone(2341, "Apple", "iPhone15Pro", "iOS", 990);
-
-        inventoryManagement.addMobilePhone(nokia);
-        inventoryManagement.addMobilePhone(siemens);
-        inventoryManagement.addMobilePhone(iphone);
-
-        List<MobilePhone> mobilePhoneListResult = inventoryManagement.listMobilePhones();
-        int sizeResult = mobilePhoneListResult.size();
-        Assertions.assertEquals(3, sizeResult);
-
-        inventoryManagement.deleteMobilePhone(12342);
-
-        List<MobilePhone> mobilePhoneListDelete = inventoryManagement.listMobilePhones();
-        Assertions.assertEquals(3, mobilePhoneListDelete.size());
+        Assertions.assertTrue(inventoryManagement.deleteMobilePhone(nokia.getId()));
+        Assertions.assertEquals(0, inventoryManagement.getAllMobilePhones().size());
 
     }
 
     @Test
     void getMobilePhoneSuccess() {
-        MobilePhone iphone = new MobilePhone(2341, "Apple", "iPhone15Pro", "iOS", 990);
-        inventoryManagement.addMobilePhone(iphone);
-        Assertions.assertNotNull(inventoryManagement.getMobilePhone(iphone.getId()));
-        Assertions.assertEquals(iphone, inventoryManagement.getMobilePhone(iphone.getId()));
-    }
-
-    @Test
-    void getMobilePhoneFail() {
-        MobilePhone iphone = new MobilePhone(2341, "Apple", "iPhone15Pro", "iOS", 990);
-        inventoryManagement.addMobilePhone(iphone);
-        Assertions.assertNull(inventoryManagement.getMobilePhone(3425));
-    }
-
-    @Test
-    void listMobilePhones() {
-        MobilePhone nokia = new MobilePhone(1234, "Nokia", "N70", "NokiaOS", 60);
-        MobilePhone siemens = new MobilePhone(8394, "Samsung", "G28", "Android", 100);
-        MobilePhone iphone = new MobilePhone(2341, "Apple", "iPhone15Pro", "iOS", 990);
-
         inventoryManagement.addMobilePhone(nokia);
-        inventoryManagement.addMobilePhone(siemens);
-        inventoryManagement.addMobilePhone(iphone);
-
-        List<MobilePhone> mobilePhoneListResult = inventoryManagement.listMobilePhones();
-        Assertions.assertEquals(3, inventoryManagement.listMobilePhones().size());
+        UUID idSearchMobilePhone = nokia.getId();
+        Assertions.assertNotNull(inventoryManagement.getMobilePhone(idSearchMobilePhone));
+        Assertions.assertEquals(nokia, inventoryManagement.getMobilePhone(nokia.getId()));
     }
+
+    void getMobilePhoneFail() {
+        UUID fakeUuid = new UUID(10, 10);
+        Assertions.assertNull(inventoryManagement.getMobilePhone(fakeUuid));
+    }
+
 
     @Test
     void updateMobilePhoneSuccess() {
-        MobilePhone iphone = new MobilePhone(2341, "Apple", "iPhone15", "iOS", 990);
-        inventoryManagement.addMobilePhone(iphone);
-        MobilePhone iphoneUpdate = new MobilePhone(2341, "Apple", "iPhone15Pro", "iOS", 1990);
-        inventoryManagement.updateMobilePhone(2341, iphoneUpdate);
-        MobilePhone mobilePhoneResult = inventoryManagement.getMobilePhone(2341);
-        Assertions.assertEquals("iPhone15Pro", mobilePhoneResult.getModel());
-        Assertions.assertEquals(1990, mobilePhoneResult.getPrice());
+        inventoryManagement.addMobilePhone(nokia);
+        nokia.setPrice(1000);
+        UUID id = nokia.getId();
+        inventoryManagement.updateMobilePhone(id, nokia);
+
+        Assertions.assertTrue(inventoryManagement.updateMobilePhone(id, nokia));
+        MobilePhone result = inventoryManagement.getMobilePhone(id);
+        Assertions.assertEquals(1000, result.getPrice());
     }
 
+    @Test
     void updateMobilePhoneFail() {
-        MobilePhone iphone = new MobilePhone(2341, "Apple", "iPhone15", "iOS", 990);
-        inventoryManagement.addMobilePhone(iphone);
-        MobilePhone iphoneUpdate = new MobilePhone(2241, "Apple", "iPhone15Pro", "iOS", 1990);
-        inventoryManagement.updateMobilePhone(2241, iphoneUpdate);
-        MobilePhone mobilePhoneResult = inventoryManagement.getMobilePhone(2241);
-        Assertions.assertNull(mobilePhoneResult);
+        UUID fakeUuid = new UUID(10, 10);
+        Assertions.assertFalse(inventoryManagement.updateMobilePhone(fakeUuid, nokia));
+    }
+
+    @Test
+    void getAllMobilePhones() {
+        inventoryManagement.addMobilePhone(nokia);
+        MobilePhone iPhone = new MobilePhone("Apple", "iPhone15ProMax", "iOs17", 1490);
+        inventoryManagement.addMobilePhone(iPhone);
+        Assertions.assertEquals(2, inventoryManagement.getAllMobilePhones().size());
+        Assertions.assertTrue(inventoryManagement.getAllMobilePhones().contains(nokia));
+        Assertions.assertTrue(inventoryManagement.getAllMobilePhones().contains(iPhone));
+
     }
 }

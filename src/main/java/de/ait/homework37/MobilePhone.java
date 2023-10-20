@@ -1,7 +1,9 @@
 package de.ait.homework37;
 
+import java.util.UUID;
+
 public class MobilePhone {
-    private int id;
+    private UUID id;
 
     private String brand;
 
@@ -11,32 +13,25 @@ public class MobilePhone {
 
     private double price;
 
-    public MobilePhone(int id, String brand, String model, String operatingSystem, double price) {
-        this.id = id;
+    public MobilePhone(String brand, String model, String operatingSystem, double price) {
+        this.id = UUID.randomUUID();
         this.brand = brand;
         this.model = model;
         this.operatingSystem = operatingSystem;
         this.price = price;
     }
 
-    public int getId() {
+    public UUID getId() {
         return id;
     }
+
 
     public String getBrand() {
         return brand;
     }
 
-    public void setBrand(String brand) {
-        this.brand = brand;
-    }
-
     public String getModel() {
         return model;
-    }
-
-    public void setModel(String model) {
-        this.model = model;
     }
 
     public String getOperatingSystem() {
@@ -55,4 +50,14 @@ public class MobilePhone {
         this.price = price;
     }
 
+    @Override
+    public String toString() {
+        return "MobilePhone{" +
+                "id=" + id +
+                ", brand='" + brand + '\'' +
+                ", model='" + model + '\'' +
+                ", operatingSystem='" + operatingSystem + '\'' +
+                ", price=" + price +
+                '}';
+    }
 }

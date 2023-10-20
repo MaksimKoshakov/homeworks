@@ -2,65 +2,52 @@ package de.ait.homework37;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.UUID;
 
 public class InventoryManagement {
 
     private List<MobilePhone> allMobilePhones = new ArrayList<>();
 
-    public void addMobilePhone(MobilePhone phone) {
-            allMobilePhones.add(phone);
+    public boolean addMobilePhone(MobilePhone phone) {
+        return allMobilePhones.add(phone);
     }
 
     //
-    public void deleteMobilePhone(int id) {
-        if (checkMobilePhoneId(id)) {
-            for (MobilePhone mobilePhone : allMobilePhones) {
-                if (mobilePhone.getId()==id) {
-                    allMobilePhones.remove(mobilePhone);
-                    break;
-                }
-            }
-       } else {
-            System.out.println("Mobile phone wis ID" + id + " can not be removed, was not found ");
-        }
-    }
-
-    MobilePhone getMobilePhone(int id) {
-        return searchMobilePhoneByID(id);
-    }
-
-    public List<MobilePhone> listMobilePhones() {
-        return allMobilePhones;
-    }
-
-    public boolean updateMobilePhone(int id, MobilePhone updatePhone) {
-        MobilePhone mobilePhone = searchMobilePhoneByID(id);
-        if (mobilePhone != null) {
-            mobilePhone.setBrand(updatePhone.getBrand());
-            mobilePhone.setModel(updatePhone.getModel());
-            mobilePhone.setOperatingSystem(updatePhone.getOperatingSystem());
-            mobilePhone.setPrice(updatePhone.getPrice());
+    public boolean deleteMobilePhone(UUID id) {
+        MobilePhone mobilePhone = getMobilePhone(id);
+        if (mobilePhone!=null) {
+            allMobilePhones.remove(mobilePhone);
             return true;
         }
         return false;
+
     }
 
-    private MobilePhone searchMobilePhoneByID(int id) {
-        for (MobilePhone mobilePhone : allMobilePhones) {
-            if (mobilePhone.getId()== id) {
+    public MobilePhone getMobilePhone(UUID id) {
+        for (MobilePhone mobilePhone:allMobilePhones){
+            if (mobilePhone.getId().equals(id)){
                 return mobilePhone;
             }
         }
         return null;
     }
 
-    private boolean checkMobilePhoneId(int id) {
-        for (MobilePhone mobilePhone : allMobilePhones) {
-            if (mobilePhone.getId()==id) {
-                return true;
-            }
-        }
-        return false;
+    public List<MobilePhone> getAllMobilePhones() {
+        return allMobilePhones;
     }
+
+    public boolean updateMobilePhone(UUID id, MobilePhone updatePhone) {
+        MobilePhone mobilePhone = getMobilePhone(id);
+        if (mobilePhone == null) {
+            System.out.println("Mobile phone with ID " + id.toString() + " was not found");
+            return false;
+        } else {
+            mobilePhone.setOperatingSystem(updatePhone.getOperatingSystem());
+            mobilePhone.setPrice(updatePhone.getPrice());
+            System.out.println("Mobile phone with ID " + id.toString() + " was was updated");
+            return true;
+        }
+    }
+
 }
 

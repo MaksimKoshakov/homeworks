@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8b980dee-872f-4899-b0be-b18a7328ab3b" name="Changes" comment="Add in pom.xml junit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/ait/homework37/InventoryManagement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/ait/homework37/MobilePhone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/de/ait/homework37/InventoryManagementTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/ait/homework38/UniqueNamesApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/de/ait/homework37/InventoryManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/ait/homework37/InventoryManagement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/de/ait/homework37/MobilePhone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/ait/homework37/MobilePhone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/de/ait/homework37/InventoryManagementTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/de/ait/homework37/InventoryManagementTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +19,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -51,11 +52,12 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="de.ait.homework38" />
       <recent name="de.ait.homework37" />
       <recent name="de.ait.homework36" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.InventoryManagementTest">
+  <component name="RunManager" selected="JUnit.InventoryManagementTest.getAllMobilePhones">
     <configuration name="InventoryManagementTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaLessonAIT" />
       <extension name="coverage">
@@ -71,7 +73,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InventoryManagementTest.getMobilePhoneFail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="InventoryManagementTest.deleteMobilePhoneSuccess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaLessonAIT" />
       <extension name="coverage">
         <pattern>
@@ -81,7 +83,23 @@
       </extension>
       <option name="PACKAGE_NAME" value="de.ait.homework37" />
       <option name="MAIN_CLASS_NAME" value="de.ait.homework37.InventoryManagementTest" />
-      <option name="METHOD_NAME" value="getMobilePhoneFail" />
+      <option name="METHOD_NAME" value="deleteMobilePhoneSuccess" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InventoryManagementTest.getAllMobilePhones" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaLessonAIT" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="de.ait.homework37.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="de.ait.homework37" />
+      <option name="MAIN_CLASS_NAME" value="de.ait.homework37.InventoryManagementTest" />
+      <option name="METHOD_NAME" value="getAllMobilePhones" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -103,7 +121,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InventoryManagementTest.listMobilePhones" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="InventoryManagementTest.updateMobilePhoneFail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaLessonAIT" />
       <extension name="coverage">
         <pattern>
@@ -113,23 +131,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="de.ait.homework37" />
       <option name="MAIN_CLASS_NAME" value="de.ait.homework37.InventoryManagementTest" />
-      <option name="METHOD_NAME" value="listMobilePhones" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="InventoryManagementTest.updateMobilePhoneSuccess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaLessonAIT" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="de.ait.homework37.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="de.ait.homework37" />
-      <option name="MAIN_CLASS_NAME" value="de.ait.homework37.InventoryManagementTest" />
-      <option name="METHOD_NAME" value="updateMobilePhoneSuccess" />
+      <option name="METHOD_NAME" value="updateMobilePhoneFail" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -137,10 +139,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.InventoryManagementTest.getAllMobilePhones" />
         <item itemvalue="JUnit.InventoryManagementTest" />
-        <item itemvalue="JUnit.InventoryManagementTest.updateMobilePhoneSuccess" />
-        <item itemvalue="JUnit.InventoryManagementTest.listMobilePhones" />
-        <item itemvalue="JUnit.InventoryManagementTest.getMobilePhoneFail" />
+        <item itemvalue="JUnit.InventoryManagementTest.deleteMobilePhoneSuccess" />
+        <item itemvalue="JUnit.InventoryManagementTest.updateMobilePhoneFail" />
         <item itemvalue="JUnit.InventoryManagementTest.getMobilePhoneSuccess" />
       </list>
     </recent_temporary>
@@ -202,7 +204,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697571547436</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Add in pom.xml junit">
+      <option name="closed" value="true" />
+      <created>1697684018393</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1697684018393</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
