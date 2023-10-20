@@ -30,7 +30,12 @@ class InventoryManagementTest {
         inventoryManagement.addMobilePhone(nokia);
         Assertions.assertTrue(inventoryManagement.deleteMobilePhone(nokia.getId()));
         Assertions.assertEquals(0, inventoryManagement.getAllMobilePhones().size());
+    }
 
+    @Test
+    void deleteMobilePhoneFail() {
+        UUID fakeUuid = new UUID(10, 10);
+        Assertions.assertFalse(inventoryManagement.deleteMobilePhone(fakeUuid));
     }
 
     @Test
