@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8b980dee-872f-4899-b0be-b18a7328ab3b" name="Changes" comment="Add in pom.xml junit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/ait/homework38/UniqueNamesApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/ait/homework39/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/ait/homework39/StudentDatabase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/de/ait/homework39/StudentDatabaseTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/de/ait/homework37/InventoryManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/ait/homework37/InventoryManagement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/de/ait/homework37/MobilePhone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/ait/homework37/MobilePhone.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/de/ait/homework37/InventoryManagementTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/de/ait/homework37/InventoryManagementTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/de/ait/homework38/UniqueNamesApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/ait/homework38/UniqueNamesApp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,86 +52,87 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="de.ait.homework39" />
       <recent name="de.ait.homework38" />
       <recent name="de.ait.homework37" />
       <recent name="de.ait.homework36" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.InventoryManagementTest.getAllMobilePhones">
-    <configuration name="InventoryManagementTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.StudentDatabaseTest">
+    <configuration name="StudentDatabaseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaLessonAIT" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="de.ait.homework37.*" />
+          <option name="PATTERN" value="de.ait.homework39.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="de.ait.homework37" />
-      <option name="MAIN_CLASS_NAME" value="de.ait.homework37.InventoryManagementTest" />
+      <option name="PACKAGE_NAME" value="de.ait.homework39" />
+      <option name="MAIN_CLASS_NAME" value="de.ait.homework39.StudentDatabaseTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InventoryManagementTest.deleteMobilePhoneSuccess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StudentDatabaseTest.addStudentFailStudentExist" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaLessonAIT" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="de.ait.homework37.*" />
+          <option name="PATTERN" value="de.ait.homework39.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="de.ait.homework37" />
-      <option name="MAIN_CLASS_NAME" value="de.ait.homework37.InventoryManagementTest" />
-      <option name="METHOD_NAME" value="deleteMobilePhoneSuccess" />
+      <option name="PACKAGE_NAME" value="de.ait.homework39" />
+      <option name="MAIN_CLASS_NAME" value="de.ait.homework39.StudentDatabaseTest" />
+      <option name="METHOD_NAME" value="addStudentFailStudentExist" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InventoryManagementTest.getAllMobilePhones" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StudentDatabaseTest.removeStudentFailNotExist" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaLessonAIT" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="de.ait.homework37.*" />
+          <option name="PATTERN" value="de.ait.homework39.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="de.ait.homework37" />
-      <option name="MAIN_CLASS_NAME" value="de.ait.homework37.InventoryManagementTest" />
-      <option name="METHOD_NAME" value="getAllMobilePhones" />
+      <option name="PACKAGE_NAME" value="de.ait.homework39" />
+      <option name="MAIN_CLASS_NAME" value="de.ait.homework39.StudentDatabaseTest" />
+      <option name="METHOD_NAME" value="removeStudentFailNotExist" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InventoryManagementTest.getMobilePhoneSuccess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StudentDatabaseTest.removeStudentFailStudentNull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaLessonAIT" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="de.ait.homework37.*" />
+          <option name="PATTERN" value="de.ait.homework39.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="de.ait.homework37" />
-      <option name="MAIN_CLASS_NAME" value="de.ait.homework37.InventoryManagementTest" />
-      <option name="METHOD_NAME" value="getMobilePhoneSuccess" />
+      <option name="PACKAGE_NAME" value="de.ait.homework39" />
+      <option name="MAIN_CLASS_NAME" value="de.ait.homework39.StudentDatabaseTest" />
+      <option name="METHOD_NAME" value="removeStudentFailStudentNull" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InventoryManagementTest.updateMobilePhoneFail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StudentDatabaseTest.removeStudentSuccess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaLessonAIT" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="de.ait.homework37.*" />
+          <option name="PATTERN" value="de.ait.homework39.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="de.ait.homework37" />
-      <option name="MAIN_CLASS_NAME" value="de.ait.homework37.InventoryManagementTest" />
-      <option name="METHOD_NAME" value="updateMobilePhoneFail" />
+      <option name="PACKAGE_NAME" value="de.ait.homework39" />
+      <option name="MAIN_CLASS_NAME" value="de.ait.homework39.StudentDatabaseTest" />
+      <option name="METHOD_NAME" value="removeStudentSuccess" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -139,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.InventoryManagementTest.getAllMobilePhones" />
-        <item itemvalue="JUnit.InventoryManagementTest" />
-        <item itemvalue="JUnit.InventoryManagementTest.deleteMobilePhoneSuccess" />
-        <item itemvalue="JUnit.InventoryManagementTest.updateMobilePhoneFail" />
-        <item itemvalue="JUnit.InventoryManagementTest.getMobilePhoneSuccess" />
+        <item itemvalue="JUnit.StudentDatabaseTest" />
+        <item itemvalue="JUnit.StudentDatabaseTest.removeStudentFailNotExist" />
+        <item itemvalue="JUnit.StudentDatabaseTest.removeStudentFailStudentNull" />
+        <item itemvalue="JUnit.StudentDatabaseTest.removeStudentSuccess" />
+        <item itemvalue="JUnit.StudentDatabaseTest.addStudentFailStudentExist" />
       </list>
     </recent_temporary>
   </component>
@@ -212,7 +213,23 @@
       <option name="project" value="LOCAL" />
       <updated>1697684018393</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Add in pom.xml junit">
+      <option name="closed" value="true" />
+      <created>1697831255782</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1697831255783</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Add in pom.xml junit">
+      <option name="closed" value="true" />
+      <created>1697831430007</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1697831430007</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -239,6 +256,9 @@
     </SUITE>
     <SUITE FILE_PATH="coverage/homeworks$InventoryManagementTest.ic" NAME="InventoryManagementTest Coverage Results" MODIFIED="1697662647217" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>de.ait.homework37.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/homeworks$StudentDatabaseTest.ic" NAME="StudentDatabaseTest Coverage Results" MODIFIED="1698169584668" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>de.ait.homework39.*</FILTER>
     </SUITE>
   </component>
 </project>

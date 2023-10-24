@@ -16,11 +16,11 @@ public class UniqueNamesApp {
 
         do {
             input = scanner.nextLine();
-            if (!input.equals("Stop")) {
+            if (!input.equalsIgnoreCase("Stop")) {
                 names.add(input);
             }
         }
-        while (!input.equals("Stop"));
+        while (!input.equalsIgnoreCase("Stop"));
         System.out.println("Программа остановлена");
 
         Iterator<String> iterator = names.iterator();
