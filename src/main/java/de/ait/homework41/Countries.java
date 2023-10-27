@@ -8,7 +8,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
-public class Collections {
+public class Countries {
     public static void main(String[] args) {
 
         //ArrayList
