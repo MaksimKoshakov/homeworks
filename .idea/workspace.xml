@@ -5,11 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8b980dee-872f-4899-b0be-b18a7328ab3b" name="Changes" comment="Add in pom.xml junit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/ait/homework39/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/ait/homework39/StudentDatabase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/de/ait/homework39/StudentDatabaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/ait/homework40/Bar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/ait/homework40/Drink.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/ait/homework41/Collections.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/de/ait/homework40/BarTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/de/ait/homework40/DrinkTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/de/ait/homework38/UniqueNamesApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/ait/homework38/UniqueNamesApp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +20,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -33,17 +34,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "last_opened_file_path": "/Users/maximkoshakov/Repositoriy/homeworks/src/main/java/de/ait/homework35",
-    "onboarding.tips.debug.path": "/Users/maximkoshakov/Repositoriy/homeworks/src/main/java/de/ait/Main.java"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/maximkoshakov/Repositoriy/homeworks/src/main/java/de/ait/homework35&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/maximkoshakov/Repositoriy/homeworks/src/main/java/de/ait/Main.java&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/de/ait/homework35" />
@@ -52,99 +53,96 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="de.ait.homework40" />
       <recent name="de.ait.homework39" />
       <recent name="de.ait.homework38" />
       <recent name="de.ait.homework37" />
       <recent name="de.ait.homework36" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.StudentDatabaseTest">
-    <configuration name="StudentDatabaseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.Collections">
+    <configuration name="Collections" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="de.ait.homework41.Collections" />
       <module name="JavaLessonAIT" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="de.ait.homework39.*" />
+          <option name="PATTERN" value="de.ait.homework41.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="de.ait.homework39" />
-      <option name="MAIN_CLASS_NAME" value="de.ait.homework39.StudentDatabaseTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BarTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaLessonAIT" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="de.ait.homework40.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="de.ait.homework40" />
+      <option name="MAIN_CLASS_NAME" value="de.ait.homework40.BarTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StudentDatabaseTest.addStudentFailStudentExist" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BarTest.getDrinkFail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaLessonAIT" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="de.ait.homework39.*" />
+          <option name="PATTERN" value="de.ait.homework40.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="de.ait.homework39" />
-      <option name="MAIN_CLASS_NAME" value="de.ait.homework39.StudentDatabaseTest" />
-      <option name="METHOD_NAME" value="addStudentFailStudentExist" />
+      <option name="PACKAGE_NAME" value="de.ait.homework40" />
+      <option name="MAIN_CLASS_NAME" value="de.ait.homework40.BarTest" />
+      <option name="METHOD_NAME" value="getDrinkFail" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StudentDatabaseTest.removeStudentFailNotExist" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BarTest.getDrinkSuccess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaLessonAIT" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="de.ait.homework39.*" />
+          <option name="PATTERN" value="de.ait.homework40.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="de.ait.homework39" />
-      <option name="MAIN_CLASS_NAME" value="de.ait.homework39.StudentDatabaseTest" />
-      <option name="METHOD_NAME" value="removeStudentFailNotExist" />
+      <option name="PACKAGE_NAME" value="de.ait.homework40" />
+      <option name="MAIN_CLASS_NAME" value="de.ait.homework40.BarTest" />
+      <option name="METHOD_NAME" value="getDrinkSuccess" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StudentDatabaseTest.removeStudentFailStudentNull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DrinkTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaLessonAIT" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="de.ait.homework39.*" />
+          <option name="PATTERN" value="de.ait.homework40.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="de.ait.homework39" />
-      <option name="MAIN_CLASS_NAME" value="de.ait.homework39.StudentDatabaseTest" />
-      <option name="METHOD_NAME" value="removeStudentFailStudentNull" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StudentDatabaseTest.removeStudentSuccess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaLessonAIT" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="de.ait.homework39.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="de.ait.homework39" />
-      <option name="MAIN_CLASS_NAME" value="de.ait.homework39.StudentDatabaseTest" />
-      <option name="METHOD_NAME" value="removeStudentSuccess" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="de.ait.homework40" />
+      <option name="MAIN_CLASS_NAME" value="de.ait.homework40.DrinkTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.StudentDatabaseTest" />
-        <item itemvalue="JUnit.StudentDatabaseTest.removeStudentFailNotExist" />
-        <item itemvalue="JUnit.StudentDatabaseTest.removeStudentFailStudentNull" />
-        <item itemvalue="JUnit.StudentDatabaseTest.removeStudentSuccess" />
-        <item itemvalue="JUnit.StudentDatabaseTest.addStudentFailStudentExist" />
+        <item itemvalue="Application.Collections" />
+        <item itemvalue="JUnit.BarTest" />
+        <item itemvalue="JUnit.DrinkTest" />
+        <item itemvalue="JUnit.BarTest.getDrinkFail" />
+        <item itemvalue="JUnit.BarTest.getDrinkSuccess" />
       </list>
     </recent_temporary>
   </component>
@@ -229,7 +227,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697831430007</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Add in pom.xml junit">
+      <option name="closed" value="true" />
+      <created>1698171009479</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1698171009479</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -259,6 +265,12 @@
     </SUITE>
     <SUITE FILE_PATH="coverage/homeworks$StudentDatabaseTest.ic" NAME="StudentDatabaseTest Coverage Results" MODIFIED="1698169584668" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>de.ait.homework39.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/homeworks$DrinkTest.ic" NAME="DrinkTest Coverage Results" MODIFIED="1698424766819" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>de.ait.homework40.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/homeworks$BarTest.ic" NAME="BarTest Coverage Results" MODIFIED="1698424787282" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>de.ait.homework40.*</FILTER>
     </SUITE>
   </component>
 </project>
