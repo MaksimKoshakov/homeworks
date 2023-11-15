@@ -5,12 +5,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8b980dee-872f-4899-b0be-b18a7328ab3b" name="Changes" comment="Add in pom.xml junit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/ait/homework40/Bar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/ait/homework40/Drink.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/ait/homework41/Collections.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/de/ait/homework40/BarTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/de/ait/homework40/DrinkTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/ait/exceptions/ExceptionsMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/ait/exceptions/WrongArgumentsException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/ait/homework41/CountriesArrayList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/ait/homework41/CountriesHashMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/ait/homework41/CountriesHashSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/ait/homework43/BankAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/ait/homework44/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/ait/homework44/LibraryApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/ait/homework44/LibraryCatalog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/ait/homework46/ArrayUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/ait/homework47/UserPassValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/ait/homework48/CurrencyConvertor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/ait/homework48/WrongCurrencyException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/ait/selbststaendigearbeit/Cartoon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/ait/selbststaendigearbeit/Cinema.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/ait/selbststaendigearbeit/FeatureFilm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/ait/selbststaendigearbeit/Film.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/ait/selbststaendigearbeit/Group.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/ait/selbststaendigearbeit/Post.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/ait/selbststaendigearbeit/SocialNetwork.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/ait/selbststaendigearbeit/TestCinema.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/ait/selbststaendigearbeit/TestSocialNetwork.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/ait/selbststaendigearbeit/TicketOperations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/ait/selbststaendigearbeit/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,16 +62,24 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/maximkoshakov/Repositoriy/homeworks/src/main/java/de/ait/homework35&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/maximkoshakov/Repositoriy/homeworks/src/main/java/de/ait/Main.java&quot;
+    &quot;last_opened_file_path&quot;: &quot;/Users/maximkoshakov/Repositoriy/homeworks/src/main/java/de/ait&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/maximkoshakov/Repositoriy/homeworks/src/main/java/de/ait/Main.java&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="de.ait.homework47" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/de/ait" />
       <recent name="$PROJECT_DIR$/src/main/java/de/ait/homework35" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="de.ait.homework40" />
@@ -59,10 +88,26 @@
       <recent name="de.ait.homework37" />
       <recent name="de.ait.homework36" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="de.ait.exceptions" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.Collections">
-    <configuration name="Collections" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="de.ait.homework41.Collections" />
+  <component name="RunManager" selected="Application.CurrencyConvertor">
+    <configuration name="ArrayUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="de.ait.homework46.ArrayUtil" />
+      <module name="JavaLessonAIT" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="de.ait.homework46.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CountriesHashMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="de.ait.homework41.CountriesHashMap" />
       <module name="JavaLessonAIT" />
       <extension name="coverage">
         <pattern>
@@ -74,75 +119,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BarTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CurrencyConvertor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="de.ait.homework48.CurrencyConvertor" />
       <module name="JavaLessonAIT" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="de.ait.homework40.*" />
+          <option name="PATTERN" value="de.ait.homework48.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="de.ait.homework40" />
-      <option name="MAIN_CLASS_NAME" value="de.ait.homework40.BarTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BarTest.getDrinkFail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestSocialNetwork" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="de.ait.selbststaendigearbeit.TestSocialNetwork" />
       <module name="JavaLessonAIT" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="de.ait.homework40.*" />
+          <option name="PATTERN" value="de.ait.selbststaendigearbeit.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="de.ait.homework40" />
-      <option name="MAIN_CLASS_NAME" value="de.ait.homework40.BarTest" />
-      <option name="METHOD_NAME" value="getDrinkFail" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BarTest.getDrinkSuccess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserPassValidator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="de.ait.homework47.UserPassValidator" />
       <module name="JavaLessonAIT" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="de.ait.homework40.*" />
+          <option name="PATTERN" value="de.ait.homework47.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="de.ait.homework40" />
-      <option name="MAIN_CLASS_NAME" value="de.ait.homework40.BarTest" />
-      <option name="METHOD_NAME" value="getDrinkSuccess" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DrinkTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaLessonAIT" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="de.ait.homework40.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="de.ait.homework40" />
-      <option name="MAIN_CLASS_NAME" value="de.ait.homework40.DrinkTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Collections" />
-        <item itemvalue="JUnit.BarTest" />
-        <item itemvalue="JUnit.DrinkTest" />
-        <item itemvalue="JUnit.BarTest.getDrinkFail" />
-        <item itemvalue="JUnit.BarTest.getDrinkSuccess" />
+        <item itemvalue="Application.CurrencyConvertor" />
+        <item itemvalue="Application.UserPassValidator" />
+        <item itemvalue="Application.ArrayUtil" />
+        <item itemvalue="Application.TestSocialNetwork" />
+        <item itemvalue="Application.CountriesHashMap" />
       </list>
     </recent_temporary>
   </component>
@@ -235,7 +257,23 @@
       <option name="project" value="LOCAL" />
       <updated>1698171009479</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Add in pom.xml junit">
+      <option name="closed" value="true" />
+      <created>1698434388206</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1698434388206</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Add in pom.xml junit">
+      <option name="closed" value="true" />
+      <created>1698434557828</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1698434557828</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -265,6 +303,9 @@
     </SUITE>
     <SUITE FILE_PATH="coverage/homeworks$StudentDatabaseTest.ic" NAME="StudentDatabaseTest Coverage Results" MODIFIED="1698169584668" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>de.ait.homework39.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/homeworks$TestSocialNetwork.ic" NAME="TestSocialNetwork Coverage Results" MODIFIED="1699199397571" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>de.ait.selbststaendigearbeit.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/homeworks$DrinkTest.ic" NAME="DrinkTest Coverage Results" MODIFIED="1698424766819" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>de.ait.homework40.*</FILTER>
